@@ -1,38 +1,55 @@
-<<<<<<< HEAD
-@media only screen and (max-width: 480px ){
 
-img{
-        width: 100vw;
-}
+@media only screen and (max-width: 768px ){
+    body{
+        min-width: 100% !important;
+    }
+    img{
+        width: 100%;
+    }
+    h1{
+        display: none;
+    }
+    h3{
+        width: 100% !important;
+    }
 
+    article{
+        width: 100%;
+        min-width: 100%;
+        height: 100%;
+    }
+    .cathedral_1{
+        width: 100%;
+        position: static;
+        padding: 0 !important;
+    }
+    .first_article{
+        min-width: 100% !important;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        display: none;
+    }
+    .camino_1{
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
 
-=======
-@media only screen and (max-width: 500px ){
+    .main_container {
+        width:100%;
+        min-width: 100%;
+        text-align: center;
+        padding: 0;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* padding: 0 12px; */
 
-    
->>>>>>> 108139a9aaa0a33af40e923a7f6ad7c154826276
-h1{
-    display: none;
-}
-
-
-article{
-    width: 100%;
-    height: 100%;
-}
-
-.camino_1{
-    width: 100vw;
-}
-
-.main_container {
-    width:80%;
-    text-align: center;
-    padding: 0;
-    padding-left: 15px;
-    margin: 0;
-
-}
+        /* padding-left: 15px; */
+        /* margin: 0; */
+    }
 
 h2{
     width: 80%;
@@ -47,7 +64,10 @@ h2{
 }
  
 h3{
- width: 90vw;
+ width: 100%;
+ font-size: 30px;
+ text-align: center;
+ padding: 10px 0;
  }
 
 article{
@@ -57,21 +77,18 @@ article{
 }
 
 .route{
-    width: 90vw;
+    width: 100%;
     height:100%;
+    margin: 20px 0;
+    }
 
-}
-
-.route section{
-    height: 100%;
-    width: 50%;
 }
 
 .route_map_1{
-    width: 90%;
+    width: 100%;
     padding-bottom: 10px;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 0;
 }
 
 .detailes{
@@ -80,18 +97,24 @@ article{
     height: 100%;
     width: 100%;
 }
+.info{
+    width: 90%;
+    margin: 30px 20px 30px 20px;
+
+}
 
 
 #accommodation_options span {
 text-align: left;
-width: 80%;
-margin-left: -240px;
+width: 100%;
+/* margin-left: -240px; */
 margin: 0 auto;
 }
 
 .caminoRoad_pink{
     width: 80%;
-    margin-left: -240px;
+    margin: 0 !important;
+    /* margin-left: -240px; */
 }
 
 footer{
